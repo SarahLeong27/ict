@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 85%;
+	margin: auto;
+	padding:0;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	background-color: honeydew;
+}
+header{
+	text-align: center;
+	font-size: 80px;
+    color: rgb(48, 102, 202);
+    
+	
+}
+h2{
+	font-size: 15px;
+    text-align: left;
+    color:maroon;
+    
+}
+
+nav{
+	padding: 10px;
+	text-align: center;
+	width: auto;
+	margin:0%;
+			font-size: 18px;
+			font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+			background-color: darksalmon;
+        }
+
+article{line-height: 35px;
+    color: darkmagenta;
+    
+}
+footer{
+    font-size: 12px;
+    color: black;
+    bottom: 5%;
+    position: absolute;
+    }
+a {
+	text-decoration:none;
+	display:inline-block;
+	padding: 10px;
+			color:white;
+			transition:500ms;
+}
+
+a:hover {
+    color: white;
+    background-color:darkslateblue;
+	padding: 10px;
+	
+}
+		a:visited{
+			text-decoration:none;
+		}
